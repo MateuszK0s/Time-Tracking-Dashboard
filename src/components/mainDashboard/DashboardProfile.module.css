@@ -1,0 +1,46 @@
+.timePeriod {
+    background: hsl(235, 46%, 20%);
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.timePeriod li{
+    list-style: none;
+    text-align: left;
+    color: hsl(235, 45%, 61%);
+    font-weight: 500;
+    font-size: 1.1rem;
+
+}
+.timePeriod li:hover{
+    cursor: pointer;
+    color:white;
+}
+
+.profile{
+    background-color: hsl(246, 80%, 60%);
+    overflow: hidden;
+    height: 70%;
+    border-radius: 12px;
+}
+
+.profileImage img{
+    height: 7.5rem;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 2rem;
+}
+
+.profileText{
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.profileName{
+    font-size: 2.7rem;
+    line-height: 2.5rem;
+}
+

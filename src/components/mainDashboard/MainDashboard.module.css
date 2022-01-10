@@ -1,0 +1,22 @@
+.wrapper {
+    display:grid;
+    grid-gap: 1.6rem;
+    grid-template-columns: repeat(4, minmax(300px, auto));
+    grid-auto-rows: minmax(240px, auto);
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+.profileSection{
+    grid-column: 1;
+    grid-row: 1 / 3;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 12px;
+}
+
+.wrapper div:not(:first-child){
+    border-radius: 16px;
+    min-width: 220px;
+}

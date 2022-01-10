@@ -1,0 +1,50 @@
+.trackerItem{
+    overflow: hidden;
+}
+
+.trackerOverlay{
+    /* background: url('../../images/icon-play.svg'); */
+    background-position-x: 12rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 5.2rem;
+    margin-bottom: -2rem;
+}
+
+.trackerInfo{
+    background-color: hsl(235, 46%, 20%);
+    height: calc(100% - 3.2rem);
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.titleInfo{
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lastHours{
+    color: hsl(235, 45%, 61%);
+}
+
+.hoursDetails{
+    font-weight: 500;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainHours{
+    font-size: 3rem;
+}
+
+.menu{
+    font-weight: 900;
+    line-height: 1rem;
+    color: hsl(235, 45%, 61%);
+}
+.menu:hover{
+    color:white;
+    cursor: pointer;
+}
